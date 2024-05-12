@@ -8,7 +8,7 @@ routes.post("/tokens", async (req, res) => {
     let captchaToken = req.body.token;
 
     // Put your secret key here.
-    var secretKey = "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe";
+    var secretKey = "<SECRET_KEY>";
 
     // req.connection.remoteAddress will provide IP address of connected user.
 
